@@ -1,8 +1,13 @@
 #!/usr/bin/env python
 
-allievi = ["Luigi","Marco","Filippo","Paola","Gabriella","Silvia"] #Definiamo sempre la nostra lista.
-for allievo in allievi: #Per ogni elementi in allievi.
-	print ("Ora stampo l'allievo: ", allievo) #Metti in allievo ogni elemento e stampalo a video.
+# Definiamo la nostra lista.
+allievi = ["Luigi", "Marco", "Filippo", "Paola", "Gabriella", "Silvia"] 
+
+# Per ogni elementi in allievi.
+for allievo in allievi:
+
+	# Metti in allievo ogni elemento e stampalo a video.
+	print ("Ora stampo l'allievo: ", allievo)
 
 
 

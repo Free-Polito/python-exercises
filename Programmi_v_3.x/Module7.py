@@ -1,10 +1,22 @@
 #!/usr/bin/env python
-def area_rettangolo (base, altezza): #Funzione che va a calcolare l'area del rettangolo.
+
+# Funzione che calcola l'area del rettangolo.
+def area_rettangolo (base, altezza): 
+
+      #La funzione ritorna il risultato.
       return base * altezza
-def area_cerchio (raggio): #Funzione che va a calcolare l'area del cerchio.
-      return 3.14 * raggio**2
-area_figura = area_rettangolo (3,2)+area_rettangolo (5,3)+area_cerchio(1/2) #Andiamo a richiamare le funzione e a ffare le operazioni trovando l'aera totale.
-print("L'area della figura e' ",area_figura) #Visualizziamo infine il risultato ottenuto.
+
+# Funzione che calcola l'area del cerchio, riceve come paramettro il raggio.
+def area_cerchio (raggio): 
+
+      # Ritorna il risultato dell'operazione.
+      return 3.14 * raggio ** 2
+
+# Richiamiamo la funzione area_rettangolo passando come parametri i valori si base e altezza
+area_figura = area_rettangolo (3, 2) + area_rettangolo (5, 3) + area_cerchio ( 1/2 ) 
+
+# Visualizziamo il risultato ottenuto.
+print ("L'area della figura e' ", area_figura) 
 
 
 

@@ -1,10 +1,25 @@
 #!/usr/bin/env python
 
-corretto = "no" #Dentro la scatola corretto mettiamo la stringa no.
-while corretto == "no": #La condizione del ciclo sara' che corretto uguale a no.
-    risposta = float(input ("quanto vale 15 x 17? ")) #Gli chiediamo la risposta al quesito.
-    if risposta == 15*17: #Se la risposta e' corretta all'operazione.
-        corretto = "si" #Dentro la scatola corretto non ci sara' piu' no, ma si.
-        print ("Brava!") #E automaticamente gli facciamo i complimenti.
-    else:#Altrimenti seconda parte della selezione.
-        corretto = "no" #Corretto rimane uguale a no.
+# Dentro la scatola corretto mettiamo la stringa no.
+corretto = "no" 
+
+# La condizione del ciclo sara' che corretto uguale a no.
+while corretto == "no": 
+
+    # Gli chiediamo la risposta al quesito.
+    risposta = float (input ("quanto vale 15 x 17? "))
+
+    # Se la risposta e' corretta all'operazione.
+    if risposta == 15 * 17: 
+
+        # Dentro la scatola corretto non ci sara' piu' no, ma si.
+        corretto = "si"
+
+        # E automaticamente gli facciamo i complimenti.
+        print ("Brava!")
+
+    # Altrimenti seconda parte della selezione.
+    else:
+
+        # Corretto rimane uguale a no.
+        corretto = "no" 

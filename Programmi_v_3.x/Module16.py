@@ -1,12 +1,25 @@
 #!/usr/bin/env python
 
-print (" TAVOLA PITAGORICA\n") #Titolo.
-riga = 1 #Variabile contatore.
-while riga <= 10 : #Impostazione del ciclo.
+# Titolo.
+print (" TAVOLA PITAGORICA\n") 
+
+# Variabile contatore.
+riga = 1
+
+# Impostazione del ciclo.
+while riga <= 10 : 
+    
     colonna = 1
-    while colonna <= 10 : #Impostiamo il secondo ciclo.
-        print ('\t', riga * colonna, end=" ")
-        colonna = colonna + 1#Incrementiamo il contatore.
-    riga = riga + 1 #Incrementiamo l contatore.
+    # Impostiamo il secondo ciclo annidato.
+    while colonna <= 10 : 
+
+        # Stampiamo con una tabulazione il risultato del valore della riga con quello della colonna.
+        print ('\t', riga * colonna, end = " ")
+        
+        # Incrementiamo il contatore.
+        colonna = colonna + 1
+    
+    # Incrementiamo l contatore.
+    riga = riga + 1 
     print("\n")
 
