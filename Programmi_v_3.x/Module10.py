@@ -1,7 +1,7 @@
 """ Calcolo del modulo """
 # -*- coding: utf-8 -*-
 
-# Inizializo variabile contatore.
+# Inizializzo variabile contatore.
 i = 1 
 
 # Richiesta input valore numerico.
