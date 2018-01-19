@@ -1,19 +1,21 @@
 """ Calcolo del modulo """
 # -*- coding: utf-8 -*-
 
-#Inizializziamo la variabile per il ciclo.
+# Inizializo variabile contatore.
 i = 1 
-#Facciamo inserire un valore numerico all'utente.
+
+# Richiesta input valore numerico.
 N = int (input ("Qual e' il numero di cui vuoi trovare i divisori? ")) 
-#Facciamo visualizzare il risultato che ci dara' il ciclo
+
+# Visualizzo messaggio. 
 print( N, " e' divisibile per: ") 
-#Impostiamo il ciclo dove i minore di n
+
+# Controllo su valore limite. 
 while i <= N : 
-    # Se il numero inserito usando il modulo che ci dara'  il resto della
-    # divisione e' uguale a 0.
+    # Calcolo del modulo 
     if N % i == 0 : 
-        #Se e' vero allora stampa il valore di i.
+        # Se il resto è 0 allora stampo 
         print (i) 
-    #Incrementiamo in modo da non rendere il ciclo infinito.
+    # Incremento contatore.
     i = i + 1 
 
