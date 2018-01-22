@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+""" A capo e tabulazione. """
 
 # Mandiamo in stampa.
 # Con \t possiamo fare una tabulazione.
