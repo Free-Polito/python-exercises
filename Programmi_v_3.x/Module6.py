@@ -1,7 +1,11 @@
-#!/usr/bin/env python
+""" Iterazione. """
 
-a =1 #Impostiamo a zero la variabile a.
-while a < 4 : #Adesso settiamo la condizione del ciclo con la seguente sintassi.
-  print (a) #Stampiamo il contenuto della variabile a.
-  a = a + 1 #Incrementiamo la variabile per non rendere il ciclo infinito.
+# Dichiariamo una variabile a 0.
+a = 0
 
+# Adesso settiamo la condizione del ciclo con la seguente sintassi.
+while a < 4 :
+  # Stampiamo il contenuto di a.
+  print (a)
+  # Incrementiamo la variabile per non rendere il ciclo infinito.
+  a = a + 1

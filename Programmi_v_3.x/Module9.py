@@ -1,7 +1,12 @@
-#!/usr/bin/env python
+""" Un'iterazione infinita. """
 
-i=1 #Andiamo sempre ad assegnare alla variabile del ciclo un valore.
-while i != 0 : #Si imposta il ciclo dove i e' diverso da 0.
-    print ("Aiuto! Non mi fermo piu'.") #Nel corpo del ciclo abbiamo la frase da far visualizzare.
-    i = i + 1 #Incrementiamo la variabile.
+# Dichiarazione varibili.
+i = 1
 
+# Si imposta il ciclo dove i e' diverso da 0.
+while i != 0 :
+    # Nel corpo del ciclo abbiamo la frase da far visualizzare.
+    print ("Aiuto! Non mi fermo piu'." )
+
+    #Incrementiamo la variabile.
+    i = i + 1

@@ -1,13 +1,22 @@
-#!/usr/bin/env python
+""" Indoviniamo un numero. """
 
-numero = 27 #Mettiamo dentro la variabile numero il numero che poi si dovra' indovinare.
-indovina = 0 #All'interno di indovina 0.
-while indovina!= numero : #Qui definiamo la condizione del ciclo cioe' che indovina diverso da numero.
-    indovina = float(input ("Indovina un numero: ")) #Chiediamo all'utente di inserire un numero per provare ad indovinare.
-    if indovina > numero: #Per vedere se indovina mettiamo la condizione della selezione.
-        print ("Troppo grande") #Se la condizione e' diversa ed e' maggiore.
-    elif indovina < numero : #Altrimenti se .
-            print ("Troppo piccolo") #La condizione e' diversa ma piu' piccola.
+# Dichiariamo le variabili.
+# Dentro la variabile ci sara' il numero che bisognera' indovinare.
+numero = 27
+indovina = 0
 
-print ("BRAVO!!") #Infine se indovina ci congratuliamo.
+# Qui definiamo un ciclo dove impostiamo indovina diverso da numero.
+while indovina != numero :
+    # Chiediamo all'utente di inserire un numero per provare ad indovinare.
+    indovina = float (input ("Indovina un numero: "))
 
+    # Per vedere se ha indovinato mettiamo un controllo
+    if indovina > numero:
+        # Se il numero e' troppo grande.
+        print ("Troppo grande")
+    elif indovina < numero:
+        # Se il numero è piu' piccolo.
+        print ("Troppo piccolo")
+
+#Infine se indovina ci congratuliamo.
+print ("BRAVO!!")

@@ -1,7 +1,10 @@
-#!/usr/bin/env python
+""" Stampa il triplo di un numero. """
 
-#stampa il triplo di un numero
+# Chiediamo in input un numero.
+numero = int (input ("Introduci un numero "))
 
-numero=int(input("Introduci un numero ")) #Chiediamo in input un numero.
-numero=numero*3 #Dentro numero andiamo a mettere il prodotto del numero inserito per 3.
-print("Il triplo del numero introdotto e' ",numero) #Visualizziamo il contenuto di numero.
+# Dentro la varibile mettiamo il prodotto del numero inserito per 3.
+numero = numero * 3
+
+# Visualizziamo il contenuto di numero.
+print ("Il triplo del numero introdotto e' ", numero)

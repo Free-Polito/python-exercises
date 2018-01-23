@@ -1,7 +1,10 @@
-#!/usr/bin/env python
+""" Calcolo della radice quadrata di un numero. """
 
-import math #Importo la libreria necessaria per eseguire le operazioni matematiche.
+# Importo la libreria necessaria per eseguire le operazioni matematiche.
+import math
 
-numero = float(input("Scrivi un numero ")) #Faccio inserire dall'utente il numero a suo piacere.
+# L'utente inserisce un numero in input a suo piacere.
+numero = float (input ("Scrivi un numero "))
 
-print ("La radice quadrata di", numero,"e'", math.sqrt(numero)) #Facciamo la radice quadrata del numero inserito.
+# Facciamo la radice quadrata del numero inserito.
+print ("La radice quadrata di", numero, "e'", math.sqrt(numero))
