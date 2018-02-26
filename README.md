@@ -10,7 +10,8 @@ The newer versions for Python 3.x and the comments have been created by
 *Emanuele Binello*.
 
 ## Copyright
-Copyright (c) 2017 - Aurora Martina
+Copyright (c) 2017 - Aurora Martina, Mario Scovazzi
+
 
 ## License
 The license is a GNU GPL v3.0.
